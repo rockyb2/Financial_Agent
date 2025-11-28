@@ -55,12 +55,12 @@ Application accessible via une interface **Gradio**.
 ```bash
 git clone https://github.com/TON-UTILISATEUR/TON-REPO.git
 cd TON-REPO
-2. Créer un environnement
+### 2. Créer un environnement
 bash
 Copy code
 conda create -n finance_agent python=3.10
 conda activate finance_agent
-3. Installer les dépendances
+### 3. Installer les dépendances
 bash
 Copy code
 pip install -r requirements.txt
@@ -110,7 +110,7 @@ les temps d’inférence
 ▶️ Lancer l’application
 bash
 Copy code
-python smollagent.py
+python forlf.py
 Une interface Gradio va s’ouvrir automatiquement.
 
 Avec share=True, Gradio génère aussi un lien public.
